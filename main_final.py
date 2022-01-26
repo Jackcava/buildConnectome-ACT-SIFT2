@@ -29,8 +29,7 @@ if not os.path.exists('/home/giaco/Scrivania/PROJECT_BiomedicalImageProcessing/A
 
 path_g = '/home/giaco/Scrivania/PROJECT_BiomedicalImageProcessing/Analysis'
 
-subj_list1 = [f for f in os.listdir(path_subjects) if not f.startswith('.')]  #list of the folder in spath
-#provalist = ['FD_001', 'FD_002', 'HC_001', 'HC_002']
+subj_list1 = [f for f in os.listdir(path_subjects) if not f.startswith('.')]  #list of the folder in path_subjects
 
 subj_list1.sort()
 prGreen(subj_list1)
